@@ -1,0 +1,502 @@
+/* Scrum */
+/* Contenedor principal de Scrum */
+.scrum-container {
+    max-width: 900px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Título principal de Scrum */
+.scrum-title {
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #1abc9c;
+}
+
+/* Introducción de Scrum */
+.scrum-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+/* Subtítulos dentro de Scrum */
+.scrum-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Datos de Scrum */
+.scrum-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+/*Espacio entre datos*/
+.scrum-list li {
+    margin-bottom: 1rem;
+}
+/* Contenedor de enlaces a más info de Scrum */
+.scrum-links {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+/* Título de la sección de enlaces */
+.scrum-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+/*Espacio entre enlaces*/
+.scrum-links li {
+    margin-bottom: 0.5rem;
+}
+/*Estilo de los enlaces*/
+.scrum-links a {
+    color: #1abc9c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/*Acción al pasar el cursor por encima*/
+.scrum-links a:hover {
+    color: #16a085;
+}
+
+/*Estilo empresas que usan SCRUM*/
+.scrum-empresas {
+    margin-top: 3rem;
+    text-align: center;
+}
+/*Título empresas*/
+.scrum-empresas h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+/*Contendor que organiza los logos de las empresas*/
+.empresas-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+/*Estilo cada empresa*/
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+/*Estilo imagen (logo)*/
+.empresa img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+/* Estilo nombre de la empresa*/
+.empresa span {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* XP */
+/* Contenedor principal de XP */
+.xp-container {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Título principal de XP */
+.xp-title {
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #e67e22;
+}
+
+/* Introducción de XP */
+.xp-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+/* Subtítulos dentro de XP */
+.xp-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Datos de XP */
+.xp-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Espacio entre datos */
+.xp-list li {
+    margin-bottom: 1rem;
+}
+
+/* Contenedor de enlaces a más info de XP */
+.xp-links {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+/* Título de la sección de enlaces */
+.xp-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+/* Espacio entre enlaces */
+.xp-links li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo de los enlaces */
+.xp-links a {
+    color: #e67e22;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Acción al pasar el cursor por encima */
+.xp-links a:hover {
+    color: #d35400;
+}
+
+/* Estilo empresas que usan XP */
+.xp-empresas {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Título empresas */
+.xp-empresas h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Contenedor que organiza los logos de las empresas */
+.empresas-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Estilo cada empresa */
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+/* Estilo imagen (logo) */
+.empresa img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo nombre de la empresa */
+.empresa span {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+
+/* KANBAN */
+/* Contenedor principal de Kanban */
+.kanban-container {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Título principal de Kanban */
+.kanban-title {
+    font-size: 2.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #3498db;
+}
+
+/* Introducción de Kanban */
+.kanban-intro {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Subtítulos dentro de Kanban */
+.kanban-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Datos de KANBAN */
+.kanban-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Espacio entre los datos */
+.kanban-list li {
+    margin-bottom: 1rem;
+}
+
+/* Nota adicional en Kanban */
+.kanban-note {
+    margin-top: 1.5rem;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Contenedor de enlaces relacionados con Kanban */
+.kanban-links {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+/* Título de la sección de enlaces */
+.kanban-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+/* Espacio entre enlaces */
+.kanban-links li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo de los enlaces */
+.kanban-links a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Color al pasar el cursor sobre el enlace */
+.kanban-links a:hover {
+    color: #2980b9;
+}
+
+/* Estilo empresas que usan Kanban */
+.kanban-empresas {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Título empresas */
+.kanban-empresas h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Contenedor que organiza los logos de las empresas */
+.empresas-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Estilo cada empresa */
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+/* Estilo imagen (logo) */
+.empresa img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo nombre de la empresa */
+.empresa span {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+
+/* LEAN */
+/* Contenedor principal de Lean */
+.lean-container {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Título principal de Lean */
+.lean-title {
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #27ae60;
+}
+
+/* Introducción de Lean */
+.lean-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+/* Subtítulos dentro de Lean */
+.lean-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Datos de Lean */
+.lean-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Espacio entre datos */
+.lean-list li {
+    margin-bottom: 1rem;
+}
+
+/* Nota adicional en Lean */
+.lean-note {
+    margin-top: 2rem;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Contenedor de enlaces relacionados con Lean */
+.lean-links {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+/* Título de la sección de enlaces */
+.lean-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+/* Espacio entre enlaces */
+.lean-links li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo de los enlaces */
+.lean-links a {
+    color: #27ae60;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Acción al pasar el cursor sobre el enlace */
+.lean-links a:hover {
+    color: #1e8449;
+}
+
+/* Estilo empresas que usan Lean */
+.lean-empresas {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Título empresas */
+.lean-empresas h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Contenedor que organiza los logos de las empresas */
+.empresas-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Estilo cada empresa */
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+/* Estilo imagen (logo) */
+.empresa img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo nombre de la empresa */
+.empresa span {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+

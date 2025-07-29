@@ -1,0 +1,43 @@
+
+/*Contenedor principal de los ejemplos*/
+.ejemplos-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+}
+
+/*Estilo del título principal*/
+.ejemplos-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1abc9c;
+}
+
+/*Estilo del contenedor de las tarjetas*/
+.ejemplos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*Estilo de cada tarjeta con el ejemplo*/
+.ejemplo-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/*Estilo de cada logo de empresa*/
+.ejemplo-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+}

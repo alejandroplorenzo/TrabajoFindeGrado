@@ -1,0 +1,93 @@
+
+/*Página de inicio*/
+.inicio-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/*Título inicial*/
+.inicio-titulo {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*Contenedor de las noticias*/
+.noticias-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+/*Tarjeta individual de cada noticia*/
+.noticia-card {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #2c3e50;
+    width: 100%;
+    max-width: 900px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*Título dentro de la tarjeta*/
+.noticia-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.4;
+}
+
+/*Botón para avanzar en las noticias*/
+.siguiente-btn {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+/*Contenedor de los enlaces a metodologías ágiles*/
+.opciones-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/*Tarjeta con enlace a cada metodología.*/
+.opcion-card {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    min-width: 500px;
+    text-align: center;
+}
+
+/*Acción al pasar el cursor*/
+.opcion-card:hover {
+    background-color: #1abc9c;
+    color: white;
+    transform: translateY(-3px);
+}

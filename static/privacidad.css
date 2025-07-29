@@ -1,0 +1,23 @@
+/* Contenedor principal de la privacidad */
+.privacidad-container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/*Estilo del título principal*/
+.privacidad-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+/*Estilo del texto de privacidaad*/
+.privacidad-text {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.6;
+    text-align: justify;
+}
